@@ -1,0 +1,261 @@
+body{
+    /* background-image: url(../images/indexBG.png); */
+    margin: 0%;
+    padding:0%;
+}
+
+.sidebarDiv{
+    overflow: hidden;
+    width:100%;
+    height: 40px;
+    color: white;
+    font-size: 1.5em;
+    margin: 3px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    }
+.navbar{
+    background-color: rgb(46, 43, 226);
+    color: white !important;
+    border: 1px solid rgb(46, 43, 226);
+}
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
+input::placeholder{
+    color: rgb(50, 75, 184) !important;
+
+}
+
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.my-color{
+    color: white !important;
+    font-size: 1.3em !important;
+
+}
+h1,h2,h3{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(14, 10, 228) !important;
+}
+h1{
+    font-size: 55px;
+}
+
+
+tr{
+    font-size: 1.2em;
+
+    color: rgb(14, 14, 207);
+
+
+}
+td{
+    margin: 1px;
+    /* border: 2px solid rgb(24, 22, 22); */
+
+
+}
+th{
+    font-size: 1.2em;
+ background-color:rgb(20, 59, 216);
+ color: white !important;
+}
+table{
+    border: 2px solid rgb(16, 20, 236);
+     /* width: 100%; */
+    /* text-align: center; */
+     background-color:rgb(153, 161, 238);
+         box-shadow: 0 0 30px #4238c9;
+
+
+}
+
+table tr:hover,table td:hover{
+    background-color: #cfcdf1;
+    color: black;
+}
+
+p{
+    color:black;
+}
+
+
+#available{
+    width: 30px;
+    height: 40px;
+   padding: 5px;
+}
+
+
+
+#myTitle{
+    color: rgb(46, 43, 226);
+    
+    font-size: 45px;
+}
+
+
+
+#indexMainDiv{
+    margin-top: 5px;
+    padding: 5px;
+/* box-shadow: 0px 0px 50px rgb(46, 43, 226); */
+}
+
+
+
+/* .slider-size > .item > img {
+    height: 100px; 
+  } */
+
+
+ 
+
+/* 
+footer {
+    background-color: rgb(46, 43, 226);
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    border: 5px solid rgb(46, 43, 226);
+
+   
+        position:absolute;
+        bottom:0;
+        width:99.6%;
+        height:60px;   
+         Height of the footer
+        background:#6cf;
+     
+
+  }
+
+  footer span a{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+  }
+
+  footer span a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+
+  } */
+
+  
+
+
+  .nav-tabs li a{
+color: rgb(46, 43, 226);
+/* color: white; */
+font-size: 1.4em;
+
+  }
+
+
+  .nav-tabs li, .nav-tabs ul{
+      width: 300px;
+      
+  }
+
+
+
+
+
+  .activeTab li a{
+    background-color:rgb(235, 235, 235); 
+    color: white;
+}
+
+
+#myTitle{
+    color: rgb(46, 43, 226);
+    
+    font-size: 45px;
+}
+
+
+
+#indexMainDiv{
+    margin-top: 5px;
+    padding: 5px;
+/* box-shadow: 0px 0px 50px rgb(46, 43, 226); */
+}
+     .carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  height: 460px;    
+width: 100%;
+}
+
+.carousel-caption h3{
+      color: black;
+  }
+ 
+
+
+  .about{
+      border:2px solid black;
+      height: 500px;
+      width: 500px;
+  }
+
+  .about>p{
+      color: rgb(28, 28, 218);
+
+
+  }
+
+ .check{
+     width: 25px;
+     height: 20px;
+ }
+
+
+ /* Profile User */
+
+ 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    /* font-size: 22px; */
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
